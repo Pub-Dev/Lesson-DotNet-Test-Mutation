@@ -27,17 +27,22 @@ jobs:
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,              
               head_sha: context.sha,
-              status: 'in_progress',
-              started_at: '2018-05-04T01:14:52Z',
-              name: 'SUCESSO🚀',
-              output: {
-                title: 'Mighty Readme report',
-                summary: 'SUCESSO',
-                text: 'this is a text'
-              }
+              status: 'in_progress',              
+              name: 'SUCESSO🚀'
             });
             
             console.log(check);
+            
+            const checkOK = await github.rest.checks.create({
+              owner: context.payload.repository.owner.login,
+              repo: context.payload.repository.name,              
+              check_run_id: check.data.id,              
+              name: 'SUCESSO🚀'              
+              started_at: '2018-05-04T01:14:52Z',
+              status: 'completed',
+              conclusion: 'failure',
+              completed_at: '2018-05-04T01:14:52Z'
+            });
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
