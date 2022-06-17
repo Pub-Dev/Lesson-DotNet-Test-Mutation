@@ -26,9 +26,9 @@ jobs:
             const { repository: { owner, name }  } = context;
 
             console.log(context);
-            console.log(repository.owner);
-            console.log(github.rest.checks);
-
+            console.log(context.payload.repository.owner);
+            console.log(context.payload.repository.name);
+            /*
             const check = github.rest.checks.createSuite({
               owner: repository.owner.name,
               repo: repository.name,              
@@ -40,7 +40,7 @@ jobs:
                 summary: 'SUCESSO',
                 text: 'this is a text'
               }
-            });
+            });*/
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
