@@ -28,11 +28,19 @@ jobs:
             console.log(context);
             console.log(github.rest.checks);
 
-            /*const check = github.rest.checks.createSuite({
-              repo.owner,
-              repo.repo,
-              ${{ env.GITHUB_SHA }},
-            });*/
+            const check = github.rest.checks.create({
+              owner: repo.owner,
+              repo: repo.repo,
+              name: 'mighty_readme',
+              sha: context.sha,
+              status: 'in_progress',
+              started_at: '2018-05-04T01:14:52Z',
+              output: {
+                title: 'Mighty Readme report',
+                summary: 'SUCESSO',
+                text: 'this is a text'
+              }
+            });
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
