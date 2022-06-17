@@ -37,7 +37,7 @@ jobs:
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,              
               check_run_id: check.data.id,              
-              name: 'SUCESSO🚀'              
+              name: 'SUCESSO🚀',
               started_at: '2018-05-04T01:14:52Z',
               status: 'completed',
               conclusion: 'failure',
