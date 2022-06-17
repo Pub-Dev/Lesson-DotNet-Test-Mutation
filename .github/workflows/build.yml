@@ -33,7 +33,7 @@ jobs:
             
             console.log(check);
             
-            const checkOK = await github.rest.checks.create({
+            const checkUpdate = await github.rest.checks.update({
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,              
               check_run_id: check.data.id,              
@@ -43,6 +43,8 @@ jobs:
               conclusion: 'failure',
               completed_at: '2018-05-04T01:14:52Z'
             });
+            
+            console.log(checkUpdate);
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
