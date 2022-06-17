@@ -30,7 +30,7 @@ jobs:
             const check = github.rest.checks.createSuite({
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,              
-              sha: context.sha,
+              head_sha: context.sha,
               status: 'in_progress',
               started_at: '2018-05-04T01:14:52Z',
               output: {
