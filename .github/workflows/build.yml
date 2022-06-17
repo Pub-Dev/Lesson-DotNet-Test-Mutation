@@ -22,12 +22,8 @@ jobs:
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |            
-            console.log("sha", context.sha);
-            console.log("name", context.payload.repository.name);
-            console.log("owner", context.payload.repository.owner.login);
-            
-            const check = github.rest.checks.createSuite({
+          script: |
+            const check = github.rest.checks.create({
               owner: context.payload.repository.owner.login,
               repo: context.payload.repository.name,              
               head_sha: context.sha,
@@ -39,6 +35,8 @@ jobs:
                 text: 'this is a text'
               }
             });
+            
+            console.log(check);
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
