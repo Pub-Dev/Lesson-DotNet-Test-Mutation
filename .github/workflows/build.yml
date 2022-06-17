@@ -29,6 +29,7 @@ jobs:
               head_sha: context.sha,
               status: 'in_progress',
               started_at: '2018-05-04T01:14:52Z',
+              name: 'SUCESSO🚀',
               output: {
                 title: 'Mighty Readme report',
                 summary: 'SUCESSO',
