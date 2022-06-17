@@ -23,13 +23,13 @@ jobs:
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           script: |            
-            console.log("sha", context.payload.sha);
+            console.log("sha", context.sha);
             console.log("name", context.payload.repository.name);
             console.log("owner", context.payload.repository.owner.login);
-            /*
+            
             const check = github.rest.checks.createSuite({
-              owner: repository.owner.name,
-              repo: repository.name,              
+              owner: context.payload.repository.owner.login,
+              repo: context.payload.repository.name,              
               sha: context.sha,
               status: 'in_progress',
               started_at: '2018-05-04T01:14:52Z',
@@ -38,7 +38,7 @@ jobs:
                 summary: 'SUCESSO',
                 text: 'this is a text'
               }
-            });*/
+            });
       
       - name: Setup .NET
         uses: actions/setup-dotnet@v1
