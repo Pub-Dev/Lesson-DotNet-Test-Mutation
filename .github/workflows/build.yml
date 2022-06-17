@@ -30,7 +30,7 @@ jobs:
             console.log(github.rest.checks);
 
             const check = github.rest.checks.createSuite({
-              owner: repo.owner.name,
+              owner: repository.owner.name,
               repo: repository.name,              
               sha: context.sha,
               status: 'in_progress',
