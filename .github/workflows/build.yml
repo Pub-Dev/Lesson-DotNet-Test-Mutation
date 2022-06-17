@@ -22,9 +22,10 @@ jobs:
         uses: actions/github-script@v6
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          script: |
-            console.log(context);
-            console.log(context.payload.repository);            
+          script: |            
+            console.log("sha", context.payload.sha);
+            console.log("name", context.payload.repository.name);
+            console.log("owner", context.payload.repository.owner.login);
             /*
             const check = github.rest.checks.createSuite({
               owner: repository.owner.name,
