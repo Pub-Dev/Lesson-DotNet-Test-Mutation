@@ -143,21 +143,4 @@ public class ClientServiceTest
         _mockClientRepository.Verify(x => x.GetByIdAsync(It.IsAny<int>()), Times.Once);
         _mockClientRepository.Verify(x => x.UpdateAsync(It.IsAny<Client>()), Times.Once);
     }
-
-    [Fact]
-    public void Test_Sum()
-    {
-        // arrange
-        var a = 10;
-        var b = 5;
-        var expected = 15;
-
-        var service = GetClientService();
-
-        // act
-        var result = service.Sum(a, b);
-
-        // assert
-        Assert.Equal(expected, result);
-    }
 }
