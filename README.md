@@ -2,7 +2,7 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![Mutation testing badge](https://img.shields.io/endpoint?style=for-the-badge&url=https://badge-api.stryker-mutator.io/github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/main)](https://dashboard.stryker-mutator.io/reports/github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/main)
+[![Mutation](https://img.shields.io/endpoint?style=for-the-badge&url=https%3A%2F%2Fbadge-api.stryker-mutator.io%2Fgithub.com%2FPub-Dev%2FLesson-DotNet-Test-Mutation%2Fmain)](https://dashboard.stryker-mutator.io/reports/github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/main)
 
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
 [![Build and Test](https://github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/actions/workflows/build.yml)
