@@ -1,0 +1,7 @@
+{
+  "stryker-config": {
+    "project-info": {
+      "name": "github.com/Pub-Dev/Lesson-DotNet-Test-Mutation"
+    }
+  }
+}
