@@ -4,12 +4,12 @@
 [![Issues][issues-shield]][issues-url]
 [![Mutation testing badge](https://img.shields.io/endpoint?style=for-the-badge&url=https://badge-api.stryker-mutator.io/github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/main)](https://dashboard.stryker-mutator.io/reports/github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/main)
 
-[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Lesson-DotNet-Test-Mutation&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Lesson-DotNet-Test-Mutation)
+[![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
 [![Build and Test](https://github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/actions/workflows/build.yml/badge.svg?branch=main)](https://github.com/Pub-Dev/Lesson-DotNet-Test-Mutation/actions/workflows/build.yml)
-[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Lesson-DotNet-Test-Mutation&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Lesson-DotNet-Test-Mutation)
-[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Lesson-DotNet-Test-Mutation&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Lesson-DotNet-Test-Mutation)
-[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Lesson-DotNet-Test-Mutation&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Lesson-DotNet-Test-Mutation)
-[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Lesson-DotNet-Test-Mutation&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Lesson-DotNet-Test-Mutation)
+[![Bugs](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=bugs)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
+[![Coverage](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=coverage)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
+[![Lines of Code](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=ncloc)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
+[![Reliability Rating](https://sonarcloud.io/api/project_badges/measure?project=Pub-Dev_Lesson-DotNet-Test-Mutation&metric=reliability_rating)](https://sonarcloud.io/summary/new_code?id=Pub-Dev_Lesson-DotNet-Test-Mutation)
 
 ## Pub Dev Store to defeat the mutants 📚🕹
 
